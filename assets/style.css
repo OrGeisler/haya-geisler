@@ -51,7 +51,7 @@ section{padding:84px 0}
 
 /* hero */
 .hero{padding:56px 0 76px}
-.hero .wrap{display:grid;grid-template-columns:1fr 300px;gap:72px;align-items:center}
+.hero .wrap{display:grid;grid-template-columns:1fr 220px;gap:80px;align-items:center}
 .hero h1{font-size:clamp(40px,6vw,66px);font-weight:900;margin-bottom:.25em}
 .hero h1 + .sub{font-family:'Frank Ruhl Libre',serif;font-size:clamp(22px,2.6vw,28px);font-weight:700;color:var(--head);line-height:1.35;margin-bottom:22px}
 .hero .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
