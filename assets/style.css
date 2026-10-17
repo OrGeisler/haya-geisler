@@ -58,7 +58,7 @@ section{padding:84px 0}
 .meta{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:16px;font-size:16px;color:var(--muted)}
 .meta span::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-left:8px;vertical-align:middle}
 .portrait{position:relative}
-.portrait img{width:100%;height:auto;aspect-ratio:4/4.7;object-fit:cover;object-position:50% 0;border-radius:200px 200px var(--r) var(--r);background:var(--sky2)}
+.portrait img{width:100%;height:auto;aspect-ratio:4/4.7;object-fit:cover;object-position:50% 0;border-radius:14px;background:var(--sky2);border:6px solid #fff;box-shadow:0 1px 2px rgba(11,42,69,.08),0 12px 28px -14px rgba(11,42,69,.28)}
 .portrait figcaption{margin-top:12px;text-align:center;font-size:15.5px;color:var(--muted)}
 .portrait figcaption b{font-family:'Rubik',sans-serif;font-size:19px;display:block;color:var(--ink)}
 
@@ -140,7 +140,7 @@ footer a{color:#CFE0EE}
   .nav{display:none}
   .hero .wrap,.about .wrap{grid-template-columns:1fr;gap:34px}
   .portrait{order:-1;display:flex;align-items:center;gap:16px}
-  .portrait img{width:92px;height:92px;aspect-ratio:1;border-radius:50%;object-position:50% 45%;box-shadow:0 0 0 4px #fff,0 0 0 5px var(--line)}
+  .portrait img{width:96px;height:112px;aspect-ratio:auto;border-radius:10px;border-width:4px;object-position:50% 30%}
   .portrait figcaption{margin:0;text-align:right}
   .about aside{position:static}
   .pillars{grid-template-columns:1fr 1fr}
